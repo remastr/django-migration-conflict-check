@@ -1,5 +1,5 @@
-# BitbucketEventHandler
-Python handler for BitBucket events. As the name of the repository suggests, this project will support only Bitbucket as VCS component of the flow bellow.
+# django-migration-conflict-check
+Leverage AWS Lambda, Bitbucket webhooks, and CircleCI workflows for discovery of Django migration conflicts in your development process.
 
 ## Flow
 ![Flow](docs/img/flow.png)
@@ -65,7 +65,7 @@ Follow the setup procedure as follows:
 6. Click on the orange "Add" button.
 
 **Upload code:**
-1. Download the [latest aws package](https://github.com/PythonMove/BitbucketEventHandler/releases/download/v0.0.1/aws_deployment.zip) from releases. 
+1. Download the [latest aws package](https://github.com/remastr/django-migration-conflict-check/releases/download/v0.1.0/aws_deployment.zip) from releases. 
 2. On the function page, under "Code" section, click on "Upload from" button and choose ".zip file" option.
 3. Upload the "aws_deployment.zip" you have downloaded in the first step.
 
